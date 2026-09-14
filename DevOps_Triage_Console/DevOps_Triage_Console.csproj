@@ -16,5 +16,12 @@
     <PackageReference Include="Microsoft.SemanticKernel.Agents.Core" Version="1.80.1" />
     <PackageReference Include="Microsoft.SemanticKernel.Connectors.Ollama" Version="1.80.1-alpha" />
   </ItemGroup>
-
+  
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  
 </Project>
